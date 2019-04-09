@@ -1,0 +1,29 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: blue;
+}
+
+.overlay {
+    background-color: red;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+    position: fixed;
+}
+
+p {
+    width: 400px;
+}
+
+.pinned {
+    display: block;
+    background-color: lightcoral;
+}
+
+.unpinned {
+    display: block;
+    width:  130px;
+}
